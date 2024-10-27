@@ -99,7 +99,7 @@ const Footer = () => {
       </h2>
       <div className="flex flex-col lg:flex-row items-start lg:space-x-16 space-y-8 lg:space-y-0">
         {/* Instructions Section */}
-        <div className="max-w-xs text-left ml-4">
+        <div className="max-w-xs  text-left ml-4">
           <h3 className="text-xl font-medium mb-4">
             Simply provide our AI writer with 1-2 sentences on what to write,
             and it'll understand and start writing for you.

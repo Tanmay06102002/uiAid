@@ -14,7 +14,7 @@ function MainSection() {
               </div>
             </div>
             <nav className="">
-              <ul className="flex space-x-5 max-sm:flex-col max-sm:space-x-0">
+              <ul className="flex space-x-5 max-sm:text-xs">
                 <li>
                   <a href="#" className="hover:text-blue-900 cursor-pointer">
                     About
@@ -33,7 +33,7 @@ function MainSection() {
               </ul>
             </nav>
 
-            <button className=" bg-transparent text-violet-600 border border-violet-600 py-2 px-4 rounded-3xl">
+            <button className=" bg-transparent text-violet-600 border border-violet-600 py-2 px-4 rounded-3xl max-sm:text-xs">
               Login
             </button>
           </div>
