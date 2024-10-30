@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import textEditorImage from "../assets/text_editor_image.png";
+import lightPurpleCircle from "../assets/Purple_Circle_2.png";
 
 const App = () => {
   const [seatData, setSeatData] = useState([]);
@@ -52,8 +53,12 @@ const App = () => {
           />
         </div>
 
+        <div className="-z-10 absolute left-[600px] top-[1650px]">
+          <img src={lightPurpleCircle} alt="loading.." width={"200px"} />
+        </div>
+
         {/* Table Section */}
-        <div className="overflow-x-auto">
+        <div className="overflow-x-auto bg-white">
           <table className="min-w-full border border-blue-600 text-center">
             <thead>
               <tr>

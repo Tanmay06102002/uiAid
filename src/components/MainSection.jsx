@@ -1,5 +1,7 @@
 import section1Image from "../assets/section1.png";
 import logo from "../assets/news-report.png";
+import darkPurpleCircle from "../assets/Purple_Circle.png";
+import lightPurpleCircle from "../assets/Purple_Circle_2.png";
 
 function MainSection() {
   return (
@@ -37,6 +39,13 @@ function MainSection() {
               Login
             </button>
           </div>
+
+          <img
+            src={darkPurpleCircle}
+            alt="loading.."
+            width={"150px"}
+            className="absolute -z-10 top-[500px] right-80 overflow-hidden"
+          />
         </header>
         <div className="container mx-auto px-6 text-center pt-32 pb-20">
           <h1 className="text-4xl font-bold text-gray-800 max-sm:text-2xl">
@@ -55,6 +64,10 @@ function MainSection() {
               Explore
             </button>
           </div>
+        </div>
+
+        <div className="absolute -z-10 top-80 left-80">
+          <img src={lightPurpleCircle} alt="loading.." width={"150px"} />
         </div>
 
         <div className="w-full flex justify-around px-4">
